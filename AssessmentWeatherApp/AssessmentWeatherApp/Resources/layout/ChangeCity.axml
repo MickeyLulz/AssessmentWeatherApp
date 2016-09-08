@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8">
+    <Button
+        android:text="Auckland"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/auckland"
+        android:id="@+id/btnAuckland"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+    <Button
+        android:text="Christchurch"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/christchurch"
+        android:id="@+id/btnChristchurch"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+    <Button
+        android:text="Hamilton"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/hamilton"
+        android:id="@+id/btnHamilton"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+    <Button
+        android:text="Wellington"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/wellington"
+        android:id="@+id/btnWellington"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+</LinearLayout>
